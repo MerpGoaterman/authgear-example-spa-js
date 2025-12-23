@@ -1,6 +1,6 @@
 let authgearClient = null;
-const AUTHGEAR_CLIENT_ID = "<CLIENT_ID>";
-const AUTHGEAR_ENDPOINT = "<AUTHGEAR_ENDPOINT>";
+const AUTHGEAR_CLIENT_ID = "1a2f16fe2a06ae7d";
+const AUTHGEAR_ENDPOINT = "https://honeststok-inc.authgear.cloud";
 
 const configureClient = async () => {
     authgearClient = window.authgear.default;
